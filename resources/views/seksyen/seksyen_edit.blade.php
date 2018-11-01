@@ -27,7 +27,7 @@
           <input class="input" type="text" value="{{ $data->nama_seksyen }}" name="nama_seksyen">
         </div>
       </div>
-      
+
       <div class="field">
         <label class="label">Singkatan Seksyen</label>
         <div class="control">
@@ -41,11 +41,11 @@
           <textarea class="textarea" name="alamat_seksyen">{{ $data->alamat_seksyen }}</textarea>
         </div>
       </div>
-     
+
 
       <div class="control">
-      <button class="button is-primary" type="submit"><i class="fas fa-save"></i></button>
-      <button class="button is-danger" type="reset"><i class="fas fa-broom"></i></button>
+      <button class="button is-primary" type="submit">Simpan</button>
+      <button class="button is-danger" type="reset">Padam</button>
       </div>
 
 </form>

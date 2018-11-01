@@ -9,7 +9,10 @@ class ModelStaf extends Model
     protected $table = 'staf';
     protected $fillable = [
         'nama_staf',
-        'nama_seksyen',
-        'nama_unit'
+        'no_kp',
+        'nama_jawatan',
+        'gred_jawatan',
+        'id_unit',
+        'id_seksyen'
       ];
 }

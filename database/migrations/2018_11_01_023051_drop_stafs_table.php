@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateModelStafsTable extends Migration
+class DropStafsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,7 @@ class CreateModelStafsTable extends Migration
      */
     public function up()
     {
-        Schema::create('staf', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
-        });
+        Schema::drop('model_stafs');
     }
 
     /**
@@ -26,6 +23,6 @@ class CreateModelStafsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('staf');
+        //
     }
 }

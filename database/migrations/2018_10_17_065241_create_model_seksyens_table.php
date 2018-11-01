@@ -31,7 +31,7 @@ class CreateModelSeksyensTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('model_units');
+        Schema::dropIfExists('seksyen');
     }
 }
     }

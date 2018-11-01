@@ -20,3 +20,9 @@ class CreateModelUnitsTable extends Migration
 
             $table->timestamps();
         });
+
+        public function down()
+    {
+        Schema::dropIfExists('seksyen');
+    }
+}

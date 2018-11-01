@@ -12,9 +12,9 @@
                             {{ $datas->nama_seksyen }}
                         </div>
                     </div>
-                    <footer class="card-footer">
-                        <a href="#" class="card-footer-item tooltip" data-tooltip="Tooltip Text" ><i class="fas fa-user-tie"></i>Pegawai</a>
-                        <a href="#" class="card-footer-item" data-target="modal" id="#mybtn" aria-haspopup="true"><i class="fas fa-map-marked-alt"></i>Alamat</a>
+                    <footer class="card-footer has-text-centered">
+                        <a href="#" class="card-footer-item tooltip" data-tooltip="Tooltip Text">Pegawai</a>
+                        <a href="#" class="card-footer-item" data-target="modal" id="#mybtn" aria-haspopup="true">Alamat</a>
                     </footer>
                 </div>
     </div>

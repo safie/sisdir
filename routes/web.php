@@ -13,10 +13,14 @@
 
 
 
-Route::get('/', function() {
+/*Route::get('/', function() {
    return view('welcome');
  });
+ */
+
+Route::get('/', 'IndexController@index');
 
 Route::resource('index','IndexController'); //tambahkan baris ini
 Route::resource('seksyen','SeksyenController'); //tambahkan baris ini
 Route::resource('unit','UnitController'); //tambahkan baris ini
+Route::resource('staf','StafController'); //tambahkan baris ini
